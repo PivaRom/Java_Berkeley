@@ -36,9 +36,6 @@ public class Berkeley {
         conf.setAllowCreate(true);
         db = env.openDatabase(null,"sample",conf);
 
-        //
-
-        //
         db.sync();
     }
 
